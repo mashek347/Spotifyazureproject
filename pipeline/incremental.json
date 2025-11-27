@@ -31,13 +31,13 @@
 			}
 		],
 		"parameters": {
-			"container": {
+			"schema": {
 				"type": "string"
 			},
-			"folder": {
+			"table": {
 				"type": "string"
 			},
-			"file": {
+			"cdc_col": {
 				"type": "string"
 			}
 		},
