@@ -34,7 +34,7 @@
 				]
 			},
 			{
-				"name": "Lookup1",
+				"name": "Last_cdc",
 				"type": "Lookup",
 				"dependsOn": [],
 				"policy": {
