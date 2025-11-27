@@ -19,6 +19,17 @@
 				}
 			}
 		],
+		"parameters": {
+			"container": {
+				"type": "string"
+			},
+			"folder": {
+				"type": "string"
+			},
+			"file": {
+				"type": "string"
+			}
+		},
 		"annotations": []
 	}
 }
