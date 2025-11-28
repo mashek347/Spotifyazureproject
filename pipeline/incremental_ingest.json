@@ -1,5 +1,5 @@
 {
-	"name": "increme",
+	"name": "incremental_ingest",
 	"properties": {
 		"activities": [
 			{
