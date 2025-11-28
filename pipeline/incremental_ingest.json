@@ -37,7 +37,7 @@
 			"table": {
 				"type": "string"
 			},
-			"cdc": {
+			"cdc_col": {
 				"type": "string"
 			}
 		},
