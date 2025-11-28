@@ -20,7 +20,10 @@
 		"type": "Json",
 		"typeProperties": {
 			"location": {
-				"type": "AzureBlobFSLocation"
+				"type": "AzureBlobFSLocation",
+				"fileName": "cdc.json",
+				"folderPath": "cdc",
+				"fileSystem": "bronze"
 			}
 		},
 		"schema": {}
