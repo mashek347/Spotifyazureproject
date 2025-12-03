@@ -251,6 +251,7 @@
 												"referenceName": "Json_dynamic",
 												"type": "DatasetReference",
 												"parameters": {
+													"container": "bronze",
 													"folder": {
 														"value": "@{item().table}_cdc",
 														"type": "Expression"
