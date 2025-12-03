@@ -225,14 +225,14 @@
 										"userProperties": [],
 										"typeProperties": {
 											"source": {
-												"type": "ParquetSource",
+												"type": "JsonSource",
 												"storeSettings": {
 													"type": "AzureBlobFSReadSettings",
 													"recursive": true,
 													"enablePartitionDiscovery": false
 												},
 												"formatSettings": {
-													"type": "ParquetReadSettings"
+													"type": "JsonReadSettings"
 												}
 											},
 											"sink": {
@@ -248,10 +248,9 @@
 										},
 										"inputs": [
 											{
-												"referenceName": "Parquet_dynamic",
+												"referenceName": "Json_dynamic",
 												"type": "DatasetReference",
 												"parameters": {
-													"container": "bronze",
 													"folder": {
 														"value": "@{item().table}_cdc",
 														"type": "Expression"
